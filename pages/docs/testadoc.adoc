@@ -1,0 +1,80 @@
+---
+layout: docs
+title: Test Adoc
+permalink: /docs/testadoc
+---
+:_module-type: PROCEDURE
+//pv2hash: b97695de-ce02-4cab-9e6e-4c7d5624d39f
+
+[id='launching-jupyterhub-and-starting-a-notebook-server_{context}']
+= Launching JupyterHub and starting a notebook server
+
+[role='_abstract']
+Launch JupyterHub and start a notebook server to start working with your notebooks.
+
+.Prerequisites
+* You have logged in to Red Hat OpenShift Data Science.
+* You know the names and values you want to use for any environment variables in your notebook server environment, for example, `AWS_SECRET_ACCESS_KEY`.
+* If you want to work with a very large data set, work with your administrator to proactively increase the storage capacity of your notebook server.
+
+.Procedure
+
+. Locate the *JupyterHub* card on the *Enabled applications* page.
+
+. Click *Launch*.
+.. If prompted, select your identity provider.
+.. Enter your credentials and click *Log in* (or equivalent for your identity provider).
++
+If you see *Error 403: Forbidden*, you are not in the default user group or the default administrator group for OpenShift Data Science. Contact your administrator so that they can add you to the correct group using
+ifdef::pantheonv1[]
+link:https://access.redhat.com/documentation/en-us/red_hat_openshift_data_science/1/html/managing_users_and_user_resources/adding-users-for-openshift-data-science_useradd[Adding users for OpenShift Data Science].
+endif::[]
+ifndef::pantheonv1[]
+link:{assemblybaseurl}833576ff-c1e0-4b75-bffa-aed6722fe34d[Adding users for OpenShift Data Science].
+endif::[]
+
+. Start a notebook server.
++
+This is not required if you have previously launched JupyterHub.
+
+.. Select the *Notebook image* to use for your server.
+.. If the notebook image contains multiple versions, select the version of the notebook image from the *Versions* section.
++
+[NOTE]
+--
+When a new version of a notebook image is released, the previous version remains available and supported on the cluster. This gives you to time to migrate your work to the latest version of the notebook image.
+
+Notebook images can take up to 40 minutes to install. Notebooks images that have not finished installing are not available for you to select. If an installation of a notebook image has not completed, an alert is displayed.
+--
+.. Select the *Container size* for your server.
+//RHODS-1598 - commenting out for 1.1 GA
+//.. Optional: Select the *Number of GPUs* (Graphics Processing Units) for your server.
+.. Optional: Select and specify values for any new *Environment variables*.
++
+For example, if you plan to integrate with Red Hat OpenShift Streams for Apache Kafka, create environment variables to store your Kafka bootstrap server and the service account username and password here.
++
+The interface stores these variables so that you only need to enter them once. Example variable names for common environment variables are automatically provided for frequently integrated environments and frameworks, such as Amazon Web Services (AWS).
++
+[IMPORTANT]
+====
+Ensure that you select the *Secret* checkbox for any variables with sensitive values that must be kept private, such as passwords.
+====
+.. Click *Start server*.
++
+If you have not previously authorized the `jupyterhub-hub` service account to access your account, the *Authorize Access* page appears prompting you to provide authorization. Inspect the permissions selected by default, and click the *Allow selected permissions* button.
++
+The *Starting server* progress indicator appears.
+
+.Verification
+* The JupyterLab interface opens in a new tab.
+
+[role="_additional-resources"]
+.Additional resources
+ifdef::pantheonv1[]
+* link:https://access.redhat.com/documentation/en-us/red_hat_openshift_data_science/1/html/getting_started_with_red_hat_openshift_data_science/launching-jupyterhub-and-starting-a-notebook-server_get-started#options-for-notebook-server-environments[Options for notebook server environments]
+* link:https://access.redhat.com/documentation/en-us/red_hat_openshift_data_science/1/html/working_with_notebooks/troubleshooting-common-problems-in-jupyterhub_nb-server[Troubleshooting common problems in JupyterHub]
+endif::[]
+ifndef::pantheonv1[]
+* link:{topicbaseurl}a47f1ef8-9e52-4c1d-9213-e9eb1467b1df[Options for notebook server environments]
+* link:{topicbaseurl}e014e5d7-f44d-4c94-95f4-d7c8c6541802[Troubleshooting common problems in JupyterHub]
+endif::[]

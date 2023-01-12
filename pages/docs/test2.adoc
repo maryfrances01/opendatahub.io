@@ -1,3 +1,8 @@
+---
+layout: docs
+title: Test2 Adoc
+permalink: /docs/test2
+---
 :_module-type: REFERENCE
 //pv2hash: 8aa0e976-c0d4-4c70-ad18-7ef60d731cfb
 

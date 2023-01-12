@@ -3,6 +3,7 @@ layout: docs
 title: Test Adoc
 permalink: /docs/testadoc
 ---
+:self-managed:
 :_module-type: PROCEDURE
 //pv2hash: b97695de-ce02-4cab-9e6e-4c7d5624d39f
 
@@ -70,11 +71,8 @@ The *Starting server* progress indicator appears.
 
 [role="_additional-resources"]
 .Additional resources
-ifdef::pantheonv1[]
+ifdef::self-managed[]
 * link:https://access.redhat.com/documentation/en-us/red_hat_openshift_data_science/1/html/getting_started_with_red_hat_openshift_data_science/launching-jupyterhub-and-starting-a-notebook-server_get-started#options-for-notebook-server-environments[Options for notebook server environments]
 * link:https://access.redhat.com/documentation/en-us/red_hat_openshift_data_science/1/html/working_with_notebooks/troubleshooting-common-problems-in-jupyterhub_nb-server[Troubleshooting common problems in JupyterHub]
 endif::[]
-ifndef::pantheonv1[]
-* link:{topicbaseurl}a47f1ef8-9e52-4c1d-9213-e9eb1467b1df[Options for notebook server environments]
-* link:{topicbaseurl}e014e5d7-f44d-4c94-95f4-d7c8c6541802[Troubleshooting common problems in JupyterHub]
-endif::[]
+

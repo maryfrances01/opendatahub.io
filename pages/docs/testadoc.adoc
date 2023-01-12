@@ -71,7 +71,7 @@ The *Starting server* progress indicator appears.
 
 [role="_additional-resources"]
 .Additional resources
-ifdef::self-managed[]
+ifndef::self-managed[]
 * link:https://access.redhat.com/documentation/en-us/red_hat_openshift_data_science/1/html/getting_started_with_red_hat_openshift_data_science/launching-jupyterhub-and-starting-a-notebook-server_get-started#options-for-notebook-server-environments[Options for notebook server environments]
 * link:https://access.redhat.com/documentation/en-us/red_hat_openshift_data_science/1/html/working_with_notebooks/troubleshooting-common-problems-in-jupyterhub_nb-server[Troubleshooting common problems in JupyterHub]
 endif::[]

@@ -18,17 +18,17 @@ The OpenShift Data Science user interface is divided into several areas:
 * The global navigation bar, which provides access to useful controls, such as *Help* and *Notifications*.
 +
 .The global navigation bar
-image::opendatahub.io/docs/opendatahub.io/assets/img/pages/docs/images/rhods-topnav.png[The global navigation bar]
+image::opendatahub.io/assets/img/pages/docs/images/rhods-topnav.png[The global navigation bar]
 
 * The side navigation menu, which contains different categories of pages available in OpenShift Data Science.
 +
 .The side navigation menu
-image::opendatahub.io/docs/opendatahub.io/assets/img/pages/docs/images/rhods-sidenav.png[The side navigation menu]
+image::opendatahub.io/assets/img/pages/docs/images/rhods-sidenav.png[The side navigation menu]
 
 * The main display area, which displays the current page and shares space with any drawers currently displaying information, such as notifications or quick start guides. The main display area also displays the *Notebook server control panel* where you can launch Jupyter by starting and configuring a notebook server. Administrators can also use the *Notebook server control panel* to manage other users' notebook servers.
 +
 .The main display area
-image::opendatahub.io/docs/opendatahub.io/assets/img/pages/docs/images/rhods-main-area.png[The main display area]
+image::opendatahub.io/assets/img/pages/docs/images/rhods-main-area.png[The main display area]
 
 == Global navigation
 

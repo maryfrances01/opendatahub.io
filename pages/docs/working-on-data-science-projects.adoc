@@ -19,11 +19,11 @@ include::assemblies/creating-and-importing-notebooks.adoc[leveloffset=+1]
 :context: nb-git
 include::assemblies/collaborating-on-notebooks-using-git.adoc[leveloffset=+1]
 
-//:context: nb-server
-//include::assemblies/working-on-data-science-projects.adoc[leveloffset=+1]
+:context: nb-server
+include::assemblies/working-on-data-science-projects.adoc[leveloffset=+1]
 
-//:context: model-serving
-//include::assemblies/model-serving-on-openshift-data-science.adoc[leveloffset=+1]
+:context: model-serving
+include::assemblies/model-serving-on-openshift-data-science.adoc[leveloffset=+1]
 
 include::modules/troubleshooting-common-problems-in-jupyter-for-administrators.adoc[leveloffset=+1]
 

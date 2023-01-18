@@ -3,7 +3,8 @@ layout: docs
 title: Working On Data Science Projects
 permalink: /docs/working-on-data-science-projects
 ---
-:self-managed:
+//:self-managed:
+:upstream:
 include::_artifacts/document-attributes-global.adoc[]
 
 = Working on data science projects

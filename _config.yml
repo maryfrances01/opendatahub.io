@@ -37,7 +37,7 @@ asciidoctor:
     - icons=font
       #- site-baseurl=maryfrances01.github.io/opendatahub.io/
     - site-baseurl=/opendatahub.io/
-    - imagesdir='{site-baseurl}/assets/img/pages/docs/'
+    - imagesdir=opendatahub.io/assets/img/pages/docs/
 
 
 permalink: /news/:year-:month-:day/:title:output_ext

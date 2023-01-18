@@ -35,8 +35,8 @@ asciidoctor:
     - idseparator=_
     - source-highlighter=coderay
     - icons=font
-      #- site-baseurl=maryfrances01.github.io/opendatahub.io/
-    - imagesdir=opendatahub.io/assets/img/pages/docs/
+    - site-baseurl=maryfrances01.github.io/opendatahub.io/
+      # - imagesdir=assets/img/pages/docs/
 
 
 permalink: /news/:year-:month-:day/:title:output_ext

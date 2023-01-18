@@ -16,7 +16,7 @@ As a data scientist, you can organize your data science work into a single proje
 * Data connections: Adding a data connection to your project allows you to connect data inputs to your workbenches.
 * Models and model servers: Deploy a trained data science model to serve intelligent applications. Your model is deployed with an endpoint that allows applications to send requests to the model.
 
-ifndef::managed[]
+ifdef::managed[]
 Model serving is currently available as a Field Trial feature. For more information on the scope of Field Trial status, see link:https://access.redhat.com/support/policy/updates/rhods/service[OpenShift Data Science Service Definition].
 endif::[]
 ifdef::self-managed[]

@@ -1,3 +1,9 @@
+---
+layout: docs
+title: Collaborating on notebooks using Git
+permalink: /docs/collaborating-on-notebooks-using-git
+---
+
 :_module-type: ASSEMBLY
 //pv2hash: 396f1446-8089-446f-87fa-4dbca98a79f4
 

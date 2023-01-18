@@ -90,6 +90,19 @@
         max-width: 100%;
       }
 
+      image {
+        display: block;
+        width: 100%;
+        max-width: 1000px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      image.img-auto {
+        width:auto;
+        max-width: 100%;
+      }
+
       .next-link {
         margin-top: 3rem;
       }

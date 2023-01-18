@@ -5,7 +5,7 @@
 = Notebook images for data scientists
 
 [role='_abstract']
-Red Hat OpenShift Data Science contains Jupyter notebook images optimized with industry-leading tools and libraries required for your data science work. To provide a consistent, stable platform for your model development, all notebook images contain the same version of Python. Notebook images available on Red Hat OpenShift Data Science are pre-built and ready for you to use immediately after OpenShift Data Science is installed or upgraded. Notebook images are upgraded quarterly to ensure that you are working with the latest supported version.
+{productname-long} contains Jupyter notebook images optimized with industry-leading tools and libraries required for your data science work. To provide a consistent, stable platform for your model development, all notebook images contain the same version of Python. Notebook images available on {productname-long} are pre-built and ready for you to use immediately after {productname-short} is installed or upgraded. Notebook images are upgraded quarterly to ensure that you are working with the latest supported version.
 
 ifndef::self-managed[]
 See the table in link:{rhodsdocshome}{default-format-url}/getting_started_with_{url-productname-long}/creating-a-project-workbench_get-started#options-for-notebook-server-environments_get-started[Options for notebook server environments] for a complete list of packages and versions included in these images.
@@ -14,7 +14,7 @@ ifdef::self-managed[]
 See the table in link:{rhodsdocshome}{default-format-url}/getting_started_with_{url-productname-long}/creating-a-project-workbench_get-started#options-for-notebook-server-environments_get-started[Options for notebook server environments] for a complete list of packages and versions included in these images.
 endif::[]
 
-Red Hat OpenShift Data Science contains the following notebook images that are installed by default:
+{productname-long} contains the following notebook images that are installed by default:
 
 .Default notebook images
 [cols="1,5"]

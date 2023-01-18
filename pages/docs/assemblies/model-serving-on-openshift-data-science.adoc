@@ -5,10 +5,10 @@ ifdef::context[:parent-context: {context}]
 :context: model-serving
 
 [id="model-serving-on-openshift-data-science_{context}"]
-= Model serving on OpenShift Data Science
+= Model serving on {productname-short}
 
 [role='_abstract']
-ifndef::self-managed[]
+ifdef::managed[]
 Model serving is currently available as a Field Trial feature. For more information on the scope of Field Trial status, see link:https://access.redhat.com/support/policy/updates/rhods/service[OpenShift Data Science Service Definition].
 endif::[]
 ifdef::self-managed[]

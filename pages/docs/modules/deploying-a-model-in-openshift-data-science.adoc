@@ -1,18 +1,18 @@
 :_module-type: PROCEDURE
 
 [id='deploying-a-model-in-openshift-data-science_{context}']
-= Deploying a model in OpenShift Data Science
+= Deploying a model in {productname-short}
 
 [role='_abstract']
-You can deploy trained models on OpenShift Data Science to enable you to test and implement them into intelligent applications. Deploying a model makes it available as a service that you can access using an API. This enables you to return predictions based on data inputs.
+You can deploy trained models on {productname-short} to enable you to test and implement them into intelligent applications. Deploying a model makes it available as a service that you can access using an API. This enables you to return predictions based on data inputs.
 
 .Prerequisites
-* You have logged in to Red Hat OpenShift Data Science.
-* If you are using specialized OpenShift Data Science groups, you are part of the user group or admin group (for example, `rhods-users`) in OpenShift.
+* You have logged in to {productname-long}.
+* If you are using specialized {productname-short} groups, you are part of the user group or admin group (for example, `rhods-users`) in OpenShift.
 * You have created a data science project that contains an associated model server.
 
 .Procedure
-. From the OpenShift Data Science dashboard, click *Data Science Projects*.
+. From the {productname-short} dashboard, click *Data Science Projects*.
 +
 The *Data science projects* page opens.
 . Click the name of the project containing the model that you want to deploy.

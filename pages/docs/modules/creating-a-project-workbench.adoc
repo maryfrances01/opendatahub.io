@@ -7,12 +7,12 @@
 To examine and work with data models in an isolated area, you can create a workbench. This workbench enables you to create a new Jupyter notebook from an existing notebook container image to access its resources and properties. For data science projects that require data to be retained, you can add container storage to the workbench you are creating.
 
 .Prerequisites
-* You have logged in to Red Hat OpenShift Data Science.
-* If you are using specialized OpenShift Data Science groups, you are part of the user group or admin group (for example, `rhods-users`) in OpenShift.
+* You have logged in to {productname-long}.
+* If you are using specialized {productname-short} groups, you are part of the user group or admin group (for example, `rhods-users`) in OpenShift.
 * You have created a data science project that you can add a workbench to.
 
 .Procedure
-. From the OpenShift Data Science dashboard, click *Data Science Projects*.
+. From the {productname-short} dashboard, click *Data Science Projects*.
 +
 The *Data science projects* page opens.
 . Click the name of the project that you want to add the workbench to.
@@ -27,8 +27,8 @@ The *Create workbench* page opens.
 .. Select the *notebook image* to use for your workbench server.
 .. Select the *container size* for your server.
 .. Optional: Select and specify values for any new *environment variables*.
-.. Configure the storage for your OpenShift Data Science cluster.
-... Select *Create new persistent storage* to create storage that is retained after you log out of OpenShift Data Science. Fill in the relevant fields to define the storage.
+.. Configure the storage for your {productname-short} cluster.
+... Select *Create new persistent storage* to create storage that is retained after you log out of {productname-short}. Fill in the relevant fields to define the storage.
 ... Select *Use existing persistent storage* to reuse existing storage then select the storage from the *Persistent storage* list.
 . Click *Create workbench*.
 

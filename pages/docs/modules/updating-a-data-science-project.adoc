@@ -7,12 +7,12 @@
 You can update your data science project's details by changing your project's name and description text.
 
 .Prerequisites
-* You have logged in to Red Hat OpenShift Data Science.
-* If you are using specialized OpenShift Data Science groups, you are part of the user group or admin group (for example, `rhods-users`) in OpenShift.
+* You have logged in to {productname-long}.
+* If you are using specialized {productname-short} groups, you are part of the user group or admin group (for example, `rhods-users`) in OpenShift.
 * You have created a data science project.
 
 .Procedure
-. From the OpenShift Data Science dashboard, click *Data Science Projects*.
+. From the {productname-short} dashboard, click *Data Science Projects*.
 +
 The *Data science projects* page opens.
 . Click the action menu (*&#8942;*) beside the project whose details you want to update and click *Edit project*.

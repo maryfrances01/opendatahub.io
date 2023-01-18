@@ -10,7 +10,7 @@ You can create a new Jupyter notebook from an existing notebook container image 
 // Reference: https://docs.google.com/document/d/1TFszdhIkxXbb7Kc1OirASAlaBkmINYmTtdSyaoHIbZI/edit
 
 .Prerequisites
-* Ensure that you have logged in to Red Hat OpenShift Data Science.
+* Ensure that you have logged in to {productname-long}.
 * Ensure that you have launched your notebook server and logged in to Jupyter.
 * The notebook image exists in a registry, image stream, and is accessible.
 

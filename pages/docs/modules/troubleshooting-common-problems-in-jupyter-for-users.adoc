@@ -4,15 +4,16 @@
 = Troubleshooting common problems in Jupyter for users
 
 [role='_abstract']
-If you are seeing errors in Red Hat OpenShift Data Science related to Jupyter, your notebooks, or your notebook server, read this section to understand what could be causing the problem.
+If you are seeing errors in {productname-long} related to Jupyter, your notebooks, or your notebook server, read this section to understand what could be causing the problem.
 
+ifndef::upstream[]
 If you cannot see your problem here or in the release notes, contact Red Hat Support.
-
+endif::[]
 
 == I see a *403: Forbidden* error when I log in to Jupyter
 
 .Problem
-If your administrator has configured specialized OpenShift Data Science user groups, your user name might not be added to the default user group or the default administrator group for OpenShift Data Science.
+If your administrator has configured specialized {productname-short} user groups, your user name might not be added to the default user group or the default administrator group for {productname-short}.
 
 .Resolution
 * Contact your administrator so that they can add you to the correct group/s.
@@ -21,12 +22,7 @@ If your administrator has configured specialized OpenShift Data Science user gro
 == My notebook server does not start
 
 .Problem
-ifndef::self-managed[]
-The OpenShift Dedicated cluster that hosts your notebook server might not have access to enough resources, or the Jupyter pod may have failed.
-endif::[]
-ifdef::self-managed[]
-The OpenShift Platform Container cluster that hosts your notebook server might not have access to enough resources, or the Jupyter pod may have failed.
-endif::[]
+The {openshift-platform} cluster that hosts your notebook server might not have access to enough resources, or the Jupyter pod may have failed.
 
 .Resolution
 Check the logs in the *Events* section in OpenShift for error messages associated with the problem. For example:

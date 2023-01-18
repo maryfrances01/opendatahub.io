@@ -4,15 +4,15 @@
 = Configuring a model server for your data science project
 
 [role='_abstract']
-Before you can successfully deploy a data science model on OpenShift Data Science, you must configure a model server. This includes configuring the number of replicas being deployed, the server size, the token authorization, and how the project is accessed.
+Before you can successfully deploy a data science model on {productname-short}, you must configure a model server. This includes configuring the number of replicas being deployed, the server size, the token authorization, and how the project is accessed.
 
 .Prerequisites
-* You have logged in to Red Hat OpenShift Data Science.
-* If you are using specialized OpenShift Data Science groups, you are part of the user group or admin group (for example, `rhods-users`) in OpenShift.
+* You have logged in to {productname-long}.
+* If you are using specialized {productname-short} groups, you are part of the user group or admin group (for example, `rhods-users`) in OpenShift.
 * You have created a data science project that you can add a model server to.
 
 .Procedure
-. From the OpenShift Data Science dashboard, click *Data Science Projects*.
+. From the {productname-short} dashboard, click *Data Science Projects*.
 +
 The *Data science projects* page opens.
 . Click the name of the project that you want to configure a model server for.

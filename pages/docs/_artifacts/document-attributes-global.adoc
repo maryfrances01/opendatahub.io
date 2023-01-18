@@ -2,7 +2,8 @@
 :YEAR: 2022
 
 // conditional entities for RHODS
-ifndef::self-managed[]
+//ifndef::self-managed[] 
+ifdef::managed[]
 :productname-long: Red Hat OpenShift Data Science
 :productname-short: OpenShift Data Science
 :url-productname-long: red_hat_openshift_data_science

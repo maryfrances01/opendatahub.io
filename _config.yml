@@ -36,7 +36,6 @@ asciidoctor:
     - source-highlighter=coderay
     - icons=font
       #- site-baseurl=maryfrances01.github.io/opendatahub.io/
-    - site-baseurl=/opendatahub.io/
     - imagesdir=opendatahub.io/assets/img/pages/docs/
 
 

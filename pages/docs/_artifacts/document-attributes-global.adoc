@@ -37,6 +37,8 @@ ifdef::upstream[]
 :install-package: Operator
 :openshift-platform: OpenShift Container Platform
 :openshift-platform-url: openshift-container-platform
+:stylesheet: asciidoc.css
+:stylesdir: _styles
 endif::[]
 
 // conditional entities for release note titles using numbers or not

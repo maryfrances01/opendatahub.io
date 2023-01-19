@@ -410,9 +410,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 	margin-bottom: 3rem;
 }
 .docs .main-content .docs-article img {
-    display: inline-block;
-    /* width: 100%; */
-    /* max-width: 1000px; */
-    /* margin-top: 1rem; */
-    /* margin-bottom: 1rem; */
+    display: inline-block !important;
+    width: unset;
+    max-width: unset;
+    margin-top: unset;
+    margin-bottom: unset;
 }

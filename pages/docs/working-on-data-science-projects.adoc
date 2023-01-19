@@ -8,10 +8,9 @@ custom_css: asciidoc.css
 :upstream:
 include::_artifacts/document-attributes-global.adoc[]
 
-:icons: font
 
 :doctype: book
-:toc: left
+//:toc: left
 :compat-mode:
 :context: notebooks
 

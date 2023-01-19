@@ -405,36 +405,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .print-only{display:block!important}
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
-span.icon > .fa {
-  cursor: default;
+.page-title {
+	margin-top: 6rem;
+	margin-bottom: 3rem;
 }
-.admonitionblock td.icon {
-  text-align: center;
-  width: 80px;
-}
-.admonitionblock td.icon [class^="fa icon-"] {
-  font-size: 2.5em;
-  text-shadow: 1px 1px 2px rgba(0,0,0,.5);
-  cursor: default;
-}
-.admonitionblock td.icon .icon-note:before {
-  content: "\f05a";
-  color: #19407c;
-}
-.admonitionblock td.icon .icon-tip:before {
-  content: "\f0eb";
-  text-shadow: 1px 1px 2px rgba(155,155,0,.8);
-  color: #111;
-}
-.admonitionblock td.icon .icon-warning:before {
-  content: "\f071";
-  color: #bf6900;
-}
-.admonitionblock td.icon .icon-caution:before {
-  content: "\f06d";
-  color: #bf3400;
-}
-.admonitionblock td.icon .icon-important:before {
-  content: "\f06a";
-  color: #bf0000;
+.docs .main-content .docs-article img {
+    display: inline-block;
+    /* width: 100%; */
+    /* max-width: 1000px; */
+    /* margin-top: 1rem; */
+    /* margin-bottom: 1rem; */
 }

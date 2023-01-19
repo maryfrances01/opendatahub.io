@@ -409,10 +409,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 	margin-top: 6rem;
 	margin-bottom: 3rem;
 }
+/* this overrides scss - mfsh */
 .docs .main-content .docs-article img {
     display: inline-block !important;
-    width: unset;
-    max-width: unset;
-    margin-top: unset;
-    margin-bottom: unset;
+    width: unset !important;
+    max-width: unset !important;
+    margin-top: unset !important;
+    margin-bottom: unset !important;
 }

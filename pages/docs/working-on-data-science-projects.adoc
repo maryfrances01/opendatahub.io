@@ -8,11 +8,12 @@ custom_css: asciidoc.css
 :upstream:
 include::_artifacts/document-attributes-global.adoc[]
 
-= Working on data science projects
 :doctype: book
 :toc: left
 :compat-mode:
 :context: notebooks
+
+= Working on data science projects
 
 //include::modules/providing-feedback-on-red-hat-documentation.adoc[leveloffset=+1]
 

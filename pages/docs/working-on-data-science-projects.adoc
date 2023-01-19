@@ -2,6 +2,7 @@
 layout: docs
 title: Working On Data Science Projects
 permalink: /docs/working-on-data-science-projects
+custom_css: asciidoc.css
 ---
 //:self-managed:
 :upstream:

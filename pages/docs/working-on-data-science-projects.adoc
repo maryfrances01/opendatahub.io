@@ -10,7 +10,7 @@ include::_artifacts/document-attributes-global.adoc[]
 
 
 :doctype: book
-//:toc: left
+:toc: left
 :compat-mode:
 :context: notebooks
 

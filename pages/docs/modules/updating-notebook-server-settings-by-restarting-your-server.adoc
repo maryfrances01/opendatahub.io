@@ -28,9 +28,9 @@ The *Start a notebook server* page opens.
 
 [role="_additional-resources"]
 .Additional resources
-ifndef::self-managed[]
+ifdef::self-managed[]
 * link:{rhodsdocshome}{default-format-url}/getting_started_with_{url-productname-long}/creating-a-project-workbench_get-started#launching-jupyter-and-starting-a-notebook-server_get-started[Launching Jupyter and starting a notebook server]
 endif::[]
-ifdef::self-managed[]
+ifdef::managed[]
 * link:{rhodsdocshome}{default-format-url}/getting_started_with_{url-productname-long}/creating-a-project-workbench_get-started#launching-jupyter-and-starting-a-notebook-server_get-started[Launching Jupyter and starting a notebook server]
 endif::[]

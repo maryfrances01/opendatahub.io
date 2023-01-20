@@ -28,9 +28,13 @@ The *Group details* page for that group appears.
 . Click the *Details* tab for the group and confirm that the *Users* section for the relevant group, contains the users who have permission to access Jupyter.
 
 .Resolution
-* If the user is not added to any of the groups allowed access to Jupyter, follow link:{rhodsdocshome}{default-format-url}/managing_users_and_user_resources/adding-users-for-openshift-data-science_useradd[Adding users for OpenShift Data Science] to add them.
 ifndef::upstream[]
+* If the user is not added to any of the groups allowed access to Jupyter, follow link:{rhodsdocshome}{default-format-url}/managing_users_and_user_resources/adding-users-for-openshift-data-science_useradd[Adding users for OpenShift Data Science] to add them.
 * If the user is already added to a group that is allowed to access Jupyter, contact Red Hat Support.
+endif::[]
+
+ifdef::upstream[]
+* If the user is not added to any of the groups allowed access to Jupyter, add them.
 endif::[]
 
 == A user's notebook server does not start
@@ -83,7 +87,12 @@ Unexpected error while saving file: XXXX database or disk is full
 ----
 
 .Resolution
+ifndef::upstream[]
 * Increase the user's available storage by expanding their persistent volume: link:https://access.redhat.com/documentation/en-us/openshift_container_platform/4.8/html/storage/expanding-persistent-volumes[Expanding persistent volumes]
+endif::[]
+ifdef::upstream[]
+Increase the user's available storage by expanding their persistent volume.
+endif::[]
 * Work with the user to identify files that can be deleted from the `/opt/app-root/src` directory on their notebook server to free up their existing storage space.
 
 

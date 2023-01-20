@@ -41,10 +41,12 @@ You can specify the exact version to install by using the `==` (equal to) operat
 altair==4.1.0
 ----
 +
+ifndef::upstream[]
 [NOTE]
 ====
 Red Hat recommends specifying exact package versions to enhance the stability of your notebook server over time. New package versions can introduce undesirable or unexpected changes in your environment's behavior.
 ====
+endif::[]
 To install multiple packages at the same time, place each package on a separate line.
 . Install the packages in `requirements.txt` to your server using a notebook cell.
 .. Create a new cell in your notebook and enter the following command:
@@ -66,4 +68,10 @@ import altair
 ====
 
 .Verification
-* Confirm that the packages in `requirements.txt` appear in the list of packages installed on the notebook server. See link:{rhodsdocshome}{default-format-url}/working_on_data_science_projects/working-on-data-science-projects_nb-server#viewing-python-packages-installed-on-your-notebook-server_nb-server[Viewing Python packages installed on your notebook server] for details.
+* Confirm that the packages in `requirements.txt` appear in the list of packages installed on the notebook server. 
+ifndef::upstream[]
+See link:{rhodsdocshome}{default-format-url}/working_on_data_science_projects/working-on-data-science-projects_nb-server#viewing-python-packages-installed-on-your-notebook-server_nb-server[Viewing Python packages installed on your notebook server] for details.
+endif::[]
+ifdef::upstream[]
+link:/docs/working-on-data-science-projects_nb-server#viewing-python-packages-installed-on-your-notebook-server_nb-server[Viewing Python packages installed on your notebook server] for details.
+endif::[]

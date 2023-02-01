@@ -109,5 +109,20 @@ toc:
         url: /docs/additional.html#videos
       - title: Audio
         url: /docs/additional.html#audio
+  - title: Data Science Projects
+    url: /docs/working-on-data-science-projects.html
+    children:
+      - title: Notebooks
+        url: /docs/working-on-data-science-projects.html#creating-and-importing-notebooks_notebooks
+      - title: Git
+        url: /docs/working-on-data-science-projects.html#collaborating-on-notebooks-using-git_git-collab
+      - title: Projects
+        url: /docs/working-on-data-science-projects.html#working-on-data-science-projects_nb-server
+      - title: Model Serving
+        url: /docs/working-on-data-science-projects.html#model-serving-on-openshift-data-science_model-serving
+      - title: Troubleshooting for Admins
+        url: /docs/working-on-data-science-projects.html#troubleshooting-common-problems-in-jupyter-for-administrators_model-serving
+      - title: Troubleshooting for Users
+        url: /docs/working-on-data-science-projects.html#troubleshooting-common-problems-in-jupyter-for-users_model-serving        
 #  - title: FAQ
 #    url: /docs/faq.html
